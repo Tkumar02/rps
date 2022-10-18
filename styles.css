@@ -1,0 +1,29 @@
+.user,
+.computer{
+    margin: 10px;
+}
+
+.userChoice{
+    width: 140px;
+}
+
+.computerChoice{
+    width: 140px;
+}
+
+.result{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.user{
+    color: goldenrod;
+}
+
+.computer{
+    color: rgb(103, 165, 103);
+}
+
+.final{
+    margin: 50px;
+}

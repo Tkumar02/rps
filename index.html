@@ -6,22 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
     <script defer src = "rps.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1 class="welcome">Welcome to Rock, Paper, Scissors - Fist to five wins!</h1>
     <div class="player">
-        <label for="title">Choose rock, paper or scissors: </label>
-        <input name = "title" type="text" id="player" placeholder="Enter choice">
+        <button class = "choices" id="rock">ROCK</button>
+        <button class = "choices" id="paper">PAPER</button>
+        <button class = "choices" id="scissors">SCISSORS</button>
     </div>
-    <button class="play" id="play">Click for computer choice</button>
+    <div class = 'user'>
+        <label for="userChoice">Your choice: </label>
+        <span class="userChoice"></span>
+    </div>
+    <div class = 'computer'>
+        <label for="computerChoice"> Computer choice: </label>
+        <span class="computerChoice"></span>
+    </div>
+    <div class="result"></div>
     <div>
-    <label for="your choice">Your choice:</label>
-    <span name = "your choice"class="playerChoice"></span>
-    </div>
+        <label for="yourScore">Your score: </label>
+        <span class = "pScore"></span>
     <div>
-        <label for="computer">Computer choice: </label>
-        <span name = "computer"class="computer"></span>
+        <label for="computerScore">Computer score: </label>
+        <span class = cScore></span>
     </div>
-    <div class="outcome"></div>
-    <div class="final"></div>
+    <div class = 'final'>
+        <label  for="final"></label>
+        <span class="final"></span>
+    </div>
 </body>
 </html>
